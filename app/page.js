@@ -1,6 +1,6 @@
 import Image from 'next/image'
 //import { NavBar } from './components/NavBar'
-import { Footer } from './components/Footer'
+//import { Footer } from './components/Footer'
 import { Services } from './components/Services'
 import { Testimonial } from './components/Testimonial'
 
@@ -10,7 +10,6 @@ export default function Home() {
       
       <Services />
       <Testimonial />
-      <Footer />
     </main>
   )
 }
