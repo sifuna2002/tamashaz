@@ -1,5 +1,10 @@
 'use client'
 import { Typography } from "@material-tailwind/react";
+
+ 
+const currentYear = new Date().getFullYear();
+ 
+export function Footer() {
  
 const LINKS = [
   {
@@ -16,10 +21,6 @@ const LINKS = [
   },
   
 ];
- 
-const currentYear = new Date().getFullYear();
- 
-export function Footer() {
   return (
     <footer className="relative bottom-0 w-full">
       <div className="mx-auto w-full max-w-7xl px-8">
