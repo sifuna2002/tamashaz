@@ -8,12 +8,11 @@ import {
     Button,
   } from "@material-tailwind/react";
 import { Footer } from "../components/Footer";
-import { NavBar } from "../components/NavBar";
+//import { NavBar } from "../components/NavBar";
    
   export default function Evoting() {
     return (
         <>
-        <NavBar />
         <Card className="w-full items-center mb-5 md:flex-row">
             <CardHeader
                 shadow={false}
